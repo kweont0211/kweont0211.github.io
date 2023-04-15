@@ -13,7 +13,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<title>Jack Kwon's Portfolio</title>
+<title>TaeYoun Kwon's Portfolio</title>
 
 <!-- STYLES -->
 <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -83,15 +83,15 @@
 		</div>
 		<div class="dropdown">
 			<div class="container">
-				<div class="dropdown_inner">
-					<ul class="anchor_nav">
-						<li><a href="#home">Home</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#work">Work</a></li>
-						<li><a href="#project">Project</a></li>
-						<li><a href="#education">Education</a></li>
-						<li><a href="#skill">Skills</a></li>
-						<li class="custom_bold"><a href="korean.html">한국어</a></li>
+				<div class="dropdown_inner custom_bold">
+					<ul class="anchor_nav ">
+						<li><a href="#home">홈</a></li>
+						<li><a href="#about">자기소개</a></li>
+						<li><a href="#work">경력사항</a></li>
+						<li><a href="#project">프로젝트 소개</a></li>
+						<li><a href="#education">학력 및 교육사항</a></li>
+						<li><a href="#skill">기술 및 자격증</a></li>
+						<li><a href="index.html">English</a></li>
 
 					</ul>
 				</div>
@@ -106,15 +106,15 @@
 			<div class="logo">
 
 			</div>
-			<div class="menu scrollable">
-				<ul class="anchor_nav">
-					<li class="current"><a href="#home">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#work">Work</a></li>
-					<li><a href="#project">Project</a></li>
-					<li><a href="#education">Education</a></li>
-					<li><a href="#skill">Skill</a></li>
-					<li class="custom_bold"><a  href="korean.html">한국어</a></li>
+			<div class="menu scrollable custom_bold">
+				<ul class="anchor_nav  ">
+					<li class="current"><a href="#home">홈</a></li>
+					<li><a href="#about">자기소개</a></li>
+					<li><a href="#work">경력사항</a></li>
+					<li><a href="#project">프로젝트 소개</a></li>
+					<li><a href="#education">학력 및 교육사항</a></li>
+					<li><a href="#skill">기술 및 자격증</a></li>
+					<li><a href="index.html">English</a></li>
 				</ul>
 			</div>
 			<div class="bottom">
@@ -138,14 +138,18 @@
 		<!-- HERO -->
 		<div class="arlo_tm_hero" id="home">
 			<div class="background">
-				<div class="image ripple" id="ripple"></div>
+				<div class="image" data-img-url="img/slider/1.jpg"></div>
+				<div class="particle_wrapper">
+					<div id="particles-js"></div>
+				</div>
+				<div class="overlay"></div>
 			</div>
 			<div class="content">
 				<div class="image_wrap">
 					<div class="main" data-img-url="img/about/me3.jpg"></div>
 				</div>
 				<div class="name_holder">
-					<h3>Jack <span>Kwon</span></h3>
+					<h3><span>권</span>태윤</h3>
 				</div>
 				<div class="text_typing">
 					<p>I'm a <span class="arlo_tm_animation_text_word"></span></p>
@@ -162,7 +166,7 @@
 			<div class="container">
 				<div class="arlo_tm_main_title">
 					<span>Biography</span>
-					<h3>About Me</h3>
+					<h3>자기소개</h3>
 				</div>
 				<div class="about_inner">
 					<div class="left">
@@ -179,40 +183,39 @@
 					</div>
 					<div class="right">
 						<div class="about_title">
-							<h3>I'm Jack Kwon and <span class="arlo_tm_animation_text_word"></span></h3>
+							<h3>I'm TaeYoun Kwon and <span class="arlo_tm_animation_text_word"></span></h3>
 						</div>
 						<div class="text">
-							<p>Hi! My name is <span>Jack Kwon</span>. I am a CS major student,
-								and I'm very passionate and dedicated to my work.
-								Recently I participated in an Object Tracking project from Microsoft AI School.
-								I have acquired the skills and knowledge necessary to make your project
-								a success.</p>
+							<p class="custom_bold">안녕하세요! 저는 <span class="custom_bold">"꾸준히 학습하는 개발자 권태윤"</span>입니다.
+								 최근 Python 기반 YOLOv8, MariaDB 와 PyQT5 를 활용한 컴퓨터 비전 및 DB 관리 및 GUI 개발<br> 프로젝트에 참여하였고,
+								Python 을 활용한 데이터 전 처리와 머신 러닝, 딥 러닝을<br> 활용한 데이터 학습 및 예측 모델 개발 경험을 가지고 있습니다.
+								 </p>
 						</div>
 						<div class="about_short_contact_wrap">
 							<ul>
 								<li>
 									<img class="svg" src="img/svg/gift.svg" alt="" />
-									<span><label>Birthday:</label> 02.11.1996</span>
+									<span><label>Birthday:</label> 1996.02</span>
 								</li>
 								<li>
 									<img class="svg" src="img/svg/calendar-4.svg" alt="" />
-									<span><label>Age:</label> 27</span>
+									<span><label>Age:</label> 만 27</span>
 								</li>
 								<li>
 									<img class="svg" src="img/svg/location-1.svg" alt="" />
-									<span><label>Location:</label> <a class="href_location" href="#">Seoul, South Korea</a></span>
+									<span><label>Location:</label> <a class="href_location" href="#">서울, 대한민국</a></span>
 								</li>
 								<li>
 									<img class="svg" src="img/svg/game-controller-2.svg" alt="" />
-									<span><label>Interests:</label> Online Gaming, Climbing</span>
+									<span><label>Interests:</label>게임, 등산</span>
 								</li>
 								<li>
 									<img class="svg" src="img/svg/study-5.svg" alt="" />
-									<span><label>Study:</label> <a class="href_location" href="#"> Seattle Pacific University</a></span>
+									<span><label>Study:</label> <a class="href_location" href="#">시애틀 퍼시픽 대학교</a></span>
 								</li>
 								<li>
 									<img class="svg" src="img/svg/degree-1.svg" alt="" />
-									<span><label>Degree:</label> Computer Science(B.S.)</span>
+									<span><label>Degree:</label> 컴퓨터 과학전공</span>
 								</li>	
 								<li>
 									<img class="svg" src="img/svg/message-3.svg" alt="" />
@@ -220,12 +223,11 @@
 								</li>
 								<li>
 									<img class="svg" src="img/svg/call-2.svg" alt="" />
-									<span><label>Phone:</label> <a href="tel:+82 010 2525 4690">+82 010 2525 4690</a></span>
-								</li>
+									<span><label>Phone:</label> <a href="tel:+82 010 2525 4690">+82 010 2525 4690</a></span></li>
 							</ul>
 						</div>
 						<div class="arlo_tm_button">
-							<a href="img/resume/Jack_Kwon_Resume.pdf" download><span>Download CV</span></a>
+							<a href="img/resume/TaeYoun_Kwon_Resume.pdf" download><span>이력서 다운받기</span></a>
 						</div>
 					</div>
 				</div>
@@ -239,37 +241,37 @@
 				<div class="container">
 					<div class="arlo_tm_main_title">
 						<span>Working Experience</span>
-						<h3>Work</h3>
+						<h3>경력사항</h3>
 					</div>
 
-					<div class="service_inner custom_work_first">
+					<div class="service_inner ">
 						<div class="custom_work_title">
-							<h3>Web Developer/IT Manager</h3>
-							<h5>Astrion Corporation</h5>
-						</div>
-					<div class="text">
-						<p>Design and build the company's main webpage by using HTML5, CSS, JavaScript, and Bootstrap. Set up Company's primary server system, Web-mail and electrical payment system using Gabia and Hi-works system.</p>
-					</div>
-					<p class="custom_work_date"><span>2022.07 - 2022.10</span></p>
-
-					</div>
-
-					<div class="service_inner custom_work_first">
-						<div class="custom_work_title">
-							<h3>Software Engineering Internship</h3>
-							<h5>Dandi Bioscience Corporation</h5>
+							<h3 >Web Developer/IT 매니저</h3>
+							<h5 class="custom_bold">주식회사 에스트리온</h5>
 						</div>
 						<div class="text">
-							<p>Liaised and aligned expectations with upper management by working closely with program management and leadership team to simplify the webpage, creating new subpages to emphasize their product, and increase the user experience.</p>
+							<p class="custom_bold"> HTML5, CSS, JavaScript 와 Bootstrap 을 통해 스타트업 메인 홈페이지 제작하였고, 홈페이지 유지 보수 및 관리하였습니다.<br>
+								또한, 파이썬을 사용하여 메인 서버를 백업하는 프로그렘을 제작하였습니다.
+						</div>
+						<p class="custom_work_date"><span>2022.07 - 2022.10</span></p>
+
+					</div>
+
+					<div class="service_inner ">
+						<div class="custom_work_title">
+							<h3 class="custom_bold">개발자 인턴쉽</h3>
+							<h5 class="custom_bold">단디바이오사이언스</h5>
+						</div>
+						<div class="text">
+							<p class="custom_bold">PHP 와 Bootstrap 을 사용하여 회사의 메인 홈페이지 수정 및 확장시켰고,  파이썬 언어와 Pandas 와 Matplotlib 라이브러리를 <br>사용하여 의료 데이터 시각화하였습니다.
+							</p>
 						</div>
 						<p class="custom_work_date"><span>2021.05 - 2021.08</span></p>
 					</div>
-
-
 				</div>
 			</div>
 		</div>
-
+		<!-- /SERVICES -->
 
 		<!-- PROJECT -->
 		<div class="arlo_tm_section" id="project">
@@ -277,7 +279,7 @@
 				<div class="container">
 					<div class="arlo_tm_main_title">
 						<span>Personal Project Record</span>
-						<h3>Projects</h3>
+						<h3>프로젝트 소개</h3>
 					</div>
 					<div class="news_list">
 						<ul>
@@ -290,19 +292,25 @@
 										<a class="arlo_tm_full_link" href="#"></a>
 									</div>
 									<div class="details">
-										<h3 class="title"><a href="#">Object Tracking for Unauthorized Aircraft(UA)</a></h3>
+										<h3 class="title"><a href="#">위험비행물 탐지 및 추적 프로그램</a></h3>
 										<p class="date"><a href="">Github Link</a> <span> JAN 2023 - MAR 2023</span></p>
 									</div>
 									<div class="description">
+										<h5 class="custom_gap custom_bold custom_gap_front">인공신경망을 이용해 위험 비행 객체 탐지 및 위치 정보, 경보 알림, 통계 분석 도구를
+											사용자에게 제공
+
+										</h5>
+
+
+
 										<h4>My Role:</h4>
-										<blockquote>
-											Create custom image datasets by using CVAT Tool for image training.<br>
-											Write the code to send object tracking data to MariaDB.<br>
-											Build the program to get e-mail addresses from MariaDB and send alarming e-mails to customers<br>
-											Do model testing and Find the best model from Yolov5 and Yolov8.<br>
-											Update the program with multi-process for the system's concurrency operation.
 
-
+										<blockquote class="custom_bold">
+											CVAT Tool 을 사용하여 커스텀 이미지 데이터셋을 구축하고 전처리 실시.<br>
+											실시간으로 데이터를 MariaDB 에 전송 및 DB 를 업데이트 하는 코드 구현.<br>
+											실시간으로 MariaDB 에서 얻은 사용자 계정으로 이메일 보내는 코드 구현.<br>
+											YoloV5 와 V8 모델을 사용하여 모델 테스트 및 Object Tracking 기술 구현 및 수정.<br>
+											멀티 프로세스를 적용하여 프로그램의 병렬처리 구현.<br>
 										</blockquote>
 
 									</div>
@@ -317,16 +325,21 @@
 										<a class="arlo_tm_full_link" href="#"></a>
 									</div>
 									<div class="details">
-										<h3 class="title"><a href="#">Trainr.Space - Web Application</a></h3>
+										<h3 class="title"><a href="#">Trainr.Space 웹 어플리케이션 </a></h3>
 										<p class="date"> <a href="https://github.com/taeyounkwon/Frontend-Dev/tree/main/React.js_Trainr.Space">Github Link</a> <span>DEC 2021 - JUN 2022</span></p>
 									</div>
 									<div class="description">
+										<h5 class="custom_gap custom_bold custom_gap_front">ReactJS로 만든 선생님과 학생이 등록하여 사용 가능한 웹 어플리케이션
+
+
+										</h5>
 										<h4>My Role:</h4>
-										<blockquote>
-											Design the web application for both desktop and mobile devices.<br>
-											Build the front-end part of the web application by using React.JS, HTML, CSS, JavaScript, and Bootstrap.<br>
-											Help to connect the front-end development to the AWS server and GraphQL. <br>
-											Help to build several Back-end functions and fix errors.</blockquote>
+										<blockquote class="custom_bold">
+											Trello 를 이용해 유저 중심적인 웹 어플리케이션 UI/UX 디자인 생성.<br>
+											Bootstrap을 이용하여 디자인 구현 및 수정.<br>
+											모든 크기의 데스크톱과 모바일 기기에서 최적화 되도록 구현.<br>
+											웹 앱 내 Back-End 의 함수 개발 참여 및 수정.<br>
+										</blockquote>
 									</div>
 								</div>
 							</li>
@@ -339,16 +352,19 @@
 										<a class="arlo_tm_full_link" href="#"></a>
 									</div>
 									<div class="details">
-										<h3 class="title"><a href="#">University Curriculum Planner</a></h3>
+										<h3 class="title"><a href="#">대학교  수강신청 플래너</a></h3>
 										<p class="date"><a href="https://github.com/taeyounkwon/Algorithm-Dev/tree/main/Python_University%20Curriculum%20Planner">Github link</a> <span>JAN 2022 - MAR 2022</span></p>
 									</div>
 									<div class="description">
+										<h5 class="custom_gap custom_bold custom_gap_front">복잡한 대학교 커리큘럼을 이용자의 상황에 맞게 커리큘럼을 짜 주는 프로그램 개발</h5>
 										<h4>My Role:</h4>
-										<blockquote>
-											Write the code to read and write the .csv file from the user.<br>
-											Build the unique sequence by using user inputs with a topology sort algorithm.<br>
-											Visualize the unique sequence by using the "Schemdraw" Python library.<br>
-											Manage the program version control and fix errors.</blockquote>
+										<blockquote class="custom_bold">
+											파일 읽기 쓰기 및 에러 핸들링 코드 작성.<br>
+											위상 정렬을 통한 데이터 정렬 코드 작성.<br>
+											정렬된 데이터를 schemdraw 로 시각화 하는 코드 작성.<br>
+											프로그램 버전 컨트롤 및 코드 내 오류 수정.
+
+										</blockquote>
 
 									</div>
 								</div>
@@ -359,7 +375,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- /PROJECT -->
+		<!-- /PORTFOLIO -->
 
 		<!-- EDUCATION -->
 		<div class="arlo_tm_section" id="education">
@@ -367,17 +383,15 @@
 				<div class="container">
 					<div class="arlo_tm_main_title">
 						<span>History of Education</span>
-						<h3>Education</h3>
+						<h3>학력 및 교육사항</h3>
 					</div>
 
 					<div class="service_inner custom_work_first">
 						<div class="custom_work_title">
-							<h3>Microsoft Artificial Intelligence School</h3>
+							<h3>마이크로소프트 AI School</h3>
 						</div>
-						<div class="text">
-							<p>Learned concepts of Artificial Intelligence, Data Analytics, and Deep Learning Mechanisms.
-								<br>Practice classification, clustering, and regression methods
-								<br>Advance the skill sets by operating several projects related to object detection and tracking
+						<div class="text custom_gap_front">
+							<p class="custom_bold">PyTorch 를 이용한 인공지능 및 기계학습 프로그래밍, Custom Dataset 구축, 이미지 기반 분류 및 객체 인식 기술 능력 향상
 							</p>
 						</div>
 						<p class="custom_work_date"><span>2022.09 - 2023.03</span></p>
@@ -386,19 +400,15 @@
 
 					<div class="service_inner custom_work_first">
 						<div class="custom_work_title">
-							<h3>Seattle Pacific University</h3>
-							<h5>Bachelor of Science / Computer Science Major</h5>
+							<h3>시애틀 퍼시픽 대학교</h3>
+						</div>
+						<div class="text custom_gap_front">
+							<p class="custom_bold">컴퓨터 과학 전공/ 과학 학사(B.S.)</p>
 						</div>
 						<p class="custom_work_date"><span>2016.09 - 2022.06</span></p>
 					</div>
 
-					<div class="service_inner custom_work_first">
-						<div class="custom_work_title">
-							<h3>Republic of South Korean Army</h3>
-							<h5>Army Sergeant, Honorable Discharge</h5>
-						</div>
-						<p class="custom_work_date"><span>2019.01 - 2020.08</span></p>
-					</div>
+
 
 
 				</div>
@@ -412,44 +422,43 @@
 				<div class="container">
 					<div class="arlo_tm_main_title">
 						<span>Personal Achievement</span>
-						<h3>Skills and Certifications</h3>
+						<h3>기술 및 자격증</h3>
+					</div>
+
+					<div class="service_inner custom_work_first">
+
+						<div class="text custom_gap custom_bold">
+
+							<h3>기술 사항</h3>
+							<p>자신있게 사용 가능한 프로그레밍 언어: Python, C++, SQL</p>
+							<p>경험해본 프로그레밍 언어: C#, PHP, Java, Golang, Nodejs, Reactjs</p>
+							<p>AI, 딥러닝, 객체 탐지 및 추적, NLP 관련 논문 읽기, 프로젝트 및 실습 경험 보유</p>
+							<p>Docker, Github, Visual studio 와 Code, Azure Devops, 및 부트스트렙 사용 가능</p>
+
+						</div>
+
+						<div class="text custom_gap custom_bold">
+							<h3>기타 기술 사항</h3>
+							<p>포토샵 및 마이크로소프트 오피스 관련 기술 보유</p>
+							<p>원어민 수준의 영어 소통 가능</p>
+						</div>
 					</div>
 
 					<div class="service_inner custom_work_first">
 						<div class="custom_work_title">
-							<h3>skills</h3>
+							<h3>자격증</h3>
 						</div>
 						<div class="text custom_gap">
-
-							<h5>Technical Skills</h5>
-							<p>Confident programming in Python, C++, and SQL</p>
-							<p>Exposure to C#, PHP, Java, Golang, Nodejs, Reactjs</p>
-							<p>Knowledge for AI, Deep Learning, and Object Detection & Tracking</p>
-							<p>Confident using GitHub, Visual studio and Code, Azure Devops, and Bootstrap</p>
-
-						</div>
-						<div class="text">
-						<h5>Non-Technical Skills</h5>
-						<p>Microsoft Office Suite, Photoshop, Paint, and use of Multifunctional</p>
-						<p>Native Korean speaker (verbal and written) / Fluent in English (verbal and written)</p>
-						</div>
-					</div>
-
-					<div class="service_inner custom_work_first">
-						<div class="custom_work_title">
-							<h3>Certifications</h3>
-						</div>
-						<div class="text custom_gap">
-							<h5 class="custom_gap_reduce">SQLD, Kdata</h5>
-							<p class="custom_work_date"><span>Acquired: 2023.04</span></p>
+							<h5 class="custom_gap_reduce_2">SQLD, 한국데이터산업진흥원 </h5>
+							<p class="custom_work_date"><span>획득일자: 2023.04</span></p>
 						</div>
 						<div class="text  custom_gap">
-							<h5  class="custom_gap_reduce">DP-900, Microsoft</h5>
-							<p class="custom_work_date"><span>Acquired: 2023.01</span></p>
+							<h5   class="custom_gap_reduce_2">DP-900, 마이크로소프트</h5>
+							<p class="custom_work_date"><span>획득일자: 2023.01</span></p>
 						</div>
 						<div class="text  custom_gap">
-							<h5 class="custom_gap_reduce">AI-900, Microsoft</h5>
-							<p class="custom_work_date"><span>Acquired: 2022.12</span></p>
+							<h5  class="custom_gap_reduce_2">AI-900, 마이크로소프트</h5>
+							<p class="custom_work_date"><span>획득일자: 2022.12</span></p>
 						</div>
 
 					</div>
@@ -463,19 +472,20 @@
 
 
 
+
 	</div>
-	
+
 	<!-- CURSOR -->
 	<div class="mouse-cursor cursor-outer"></div>
 	<div class="mouse-cursor cursor-inner"></div>
 	<!-- /CURSOR -->
-	
+
 </div>
 <!-- / WRAPPER ALL -->
-	
+
 <!-- SCRIPTS -->
 <script src="js/jquery.js"></script>
-<!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->	
+<!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->
 <script src="js/plugins.js"></script>
 <script src="js/init.js"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5bpEs3xlB8vhxNFErwoo3MXR64uavf6Y&callback=initMap"></script>
